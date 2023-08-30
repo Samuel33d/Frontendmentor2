@@ -52,7 +52,27 @@ img{
 .card__img{
     border-radius: 1rem;
     overflow: hidden;
+    position: relative;
 }
+
+.card__overlay{
+    position: absolute;
+    background-color: var(--Cyan);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    display: grid;
+    place-items: center;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+.card__overlay:hover{
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+
 
 .card__info{
     display: flex;
@@ -66,6 +86,13 @@ img{
     font-weight: 600;
     padding-top: 10px;
 }
+
+.card__nft > span:hover{
+    color: var(--Cyan);
+    cursor: pointer;
+
+}
+
 
 .card__nft > p{
     color: var(--Softblue);
@@ -116,6 +143,11 @@ img{
 .card__credits > p > span{
     color: var(--White);
     margin-left: 2px;
+}
+
+.card__credits > p > span:hover{
+    color: var(--Cyan);
+    cursor: pointer;
 }
 
 
