@@ -134,6 +134,7 @@ img{
     align-items: center;
     gap: .9rem;
     color: var(--Softblue);
+    padding-bottom: 1rem;
 }
 
 .card__credits > p{
