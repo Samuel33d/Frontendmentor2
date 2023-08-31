@@ -13,12 +13,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Outfit', sans-serif;
 }
 
 body{
     margin: 0;
     background-color: var(--Verydarkblue1);
+    font-family: outfit;
 }
 
 img{
@@ -40,7 +40,6 @@ img{
 }
 
 .card__nft{
-
     background-color: var(--Verydarkblue2);
     padding: 1.5rem;
     border-radius: 1rem;
@@ -85,12 +84,12 @@ img{
     color: var(--White);
     font-weight: 600;
     padding-top: 10px;
+    font-family: outfit;
 }
 
 .card__nft > span:hover{
     color: var(--Cyan);
     cursor: pointer;
-
 }
 
 
